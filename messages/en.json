@@ -1,0 +1,347 @@
+{
+  "nav": {
+    "about": "About",
+    "programs": "Programs",
+    "philosophy": "Philosophy",
+    "updates": "Updates",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "download": "Download App"
+  },
+  "home": {
+    "hero": {
+      "tag": "Find Your Purpose",
+      "headline1": "Find Your",
+      "headline2": "Reason",
+      "headline3": "for Being",
+      "sub": "Expert Indian students and professionals change their purpose — and their career, skills, lifestyle, and fulfillment outcomes.",
+      "cta": "Explore Programs",
+      "stats": {
+        "students": "500+",
+        "studentsLabel": "Lives Transformed",
+        "programs": "200+",
+        "programsLabel": "Sessions Conducted",
+        "partners": "50+",
+        "partnersLabel": "Corporate Partners",
+        "satisfaction": "98%",
+        "satisfactionLabel": "Satisfaction Rate"
+      }
+    },
+    "education": {
+      "tag": "Why Choose Us",
+      "headline": "Education that actually matters",
+      "sub": "Ikigai helps you gain career skills, educational qualifications and personal wisdom so you can make lifelong contributions to your community, society, and beyond.",
+      "applyNow": "Apply Now",
+      "learnMore": "Learn More",
+      "discover": {
+        "title": "Discover Programs",
+        "desc": "Browse programs tailored for real-world outcomes and practical skill-building."
+      },
+      "build": {
+        "title": "Build Skills",
+        "desc": "Gain in-demand skills with expert mentors and hands-on projects."
+      },
+      "create": {
+        "title": "Create Ikigai",
+        "desc": "Find your life's purpose at the intersection of passion, mission, and vocation."
+      }
+    },
+    "programs": {
+      "tag": "What We Offer",
+      "headline": "Our Programs",
+      "sub": "Transformative learning experiences designed for the real world — not the classroom.",
+      "viewAll": "View All Programs",
+      "items": {
+        "personality": {
+          "title": "Personality Development",
+          "desc": "Build unshakeable confidence, mastery-level communication skills, and emotional intelligence."
+        },
+        "speaking": {
+          "title": "Public Speaking",
+          "desc": "Master the art of commanding any room — from boardrooms to TEDx stages."
+        },
+        "career": {
+          "title": "Career Counselling",
+          "desc": "Navigate your career path with clarity. Expert guidance on decisions that matter."
+        },
+        "leadership": {
+          "title": "Leadership & Team Building",
+          "desc": "Develop the mindset of a leader — amplify your team's performance and culture."
+        },
+        "softSkills": {
+          "title": "Soft Skills Training",
+          "desc": "Master essential people skills: empathy, collaboration, problem-solving, and adaptability."
+        },
+        "workshop": {
+          "title": "Workshop Facilitation",
+          "desc": "Custom-designed workshops for institutions and organisations of all sizes."
+        }
+      }
+    },
+    "ikigai": {
+      "tag": "Our Foundation",
+      "headline": "The Japanese art of Ikigai",
+      "sub": "Ikigai (生き甲斐) is a Japanese concept that means 'a reason for being'. It's the intersection of your passions, values, and skills.",
+      "passion": "Passion",
+      "mission": "Mission",
+      "vocation": "Vocation",
+      "profession": "Profession"
+    },
+    "framework": {
+      "tag": "Our Method",
+      "headline": "The Ikigai Framework",
+      "sub": "Every program we run is dedicated to these four pillars — the building blocks of a purposeful life.",
+      "love": {
+        "title": "What You LOVE",
+        "desc": "Discover what fills you with energy and what you find deeply fulfilling."
+      },
+      "goodAt": {
+        "title": "What You're GOOD AT",
+        "desc": "Identify your natural gifts and skills developed through experience."
+      },
+      "need": {
+        "title": "What the World NEEDS",
+        "desc": "Find opportunities where your talents can solve meaningful problems."
+      },
+      "paidFor": {
+        "title": "What You Can Be Paid For",
+        "desc": "Build sustainable income streams from your purpose-driven work."
+      }
+    },
+    "values": {
+      "tag": "Our Values",
+      "headline": "A world where everyone lives with purpose",
+      "sub": "We believe every person deserves to live with confidence, clarity and meaning.",
+      "confidence": {
+        "title": "Confidence",
+        "desc": "Helping individuals step into their power and own their story."
+      },
+      "clarity": {
+        "title": "Clarity",
+        "desc": "Cutting through confusion to find what truly matters to you."
+      },
+      "meaning": {
+        "title": "Meaning",
+        "desc": "Creating lives filled with purpose, connection and fulfillment."
+      }
+    },
+    "testimonials": {
+      "tag": "Student Stories",
+      "headline": "Voices of transformation",
+      "items": [
+        {
+          "quote": "Ikigai changed how I see myself. The personality development sessions helped me discover strengths I never knew I had. I walked into my first job interview with complete confidence.",
+          "name": "Riya Sharma",
+          "role": "Software Engineer, Pune"
+        },
+        {
+          "quote": "The public speaking program transformed me from someone terrified of audiences to a confident presenter. I now lead client meetings and company town halls.",
+          "name": "Arjun Mehta",
+          "role": "Product Manager, Mumbai"
+        },
+        {
+          "quote": "Career counselling at Ikigai gave me the clarity I needed to pivot from a job I hated to a career I love. The mentors genuinely care about your growth.",
+          "name": "Priya Patel",
+          "role": "UX Designer, Bangalore"
+        }
+      ]
+    },
+    "app": {
+      "tag": "Always With You",
+      "headline": "Your ikigaiE Journey, In Your Pocket",
+      "sub": "Take your learning wherever life takes you. Access courses, track progress, and connect with mentors from the ikigaiE app.",
+      "appStore": "App Store",
+      "playStore": "Google Play"
+    },
+    "cta": {
+      "tag": "Begin Your Journey",
+      "headline": "Ready to find your",
+      "headlineAccent": "ikigaiE?",
+      "sub": "Whether you're a student discovering your path or a professional reshaping your career, we have a program designed for you.",
+      "start": "Start Your Journey",
+      "email": "hello@ikigaie.com"
+    }
+  },
+  "about": {
+    "tag": "Who We Are",
+    "headline": "Empowering India, One Purpose at a Time",
+    "sub": "IkigaiE is India's premier personal development institute dedicated to helping individuals discover their life purpose and build the skills to pursue it.",
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To make purpose-driven education accessible to every Indian, regardless of background or circumstance."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "A world where every person wakes up excited for their day — living with clarity, confidence, and contribution."
+    },
+    "story": {
+      "tag": "Our Story",
+      "headline": "Born from a Question",
+      "sub": "Founded in 2019, IkigaiE was born from a simple but powerful question: Why do so many talented Indians feel lost and unfulfilled in their careers?",
+      "p1": "Our founders — educators, psychologists, and career coaches — came together with a shared belief: that the education system was failing people by focusing on degrees instead of direction, information instead of wisdom.",
+      "p2": "Drawing from the Japanese concept of Ikigai and modern positive psychology, we built a framework that helps people find the intersection of their passions, strengths, and the world's needs.",
+      "p3": "Today, we've helped over 500 students and professionals across India transform their lives — and we're just getting started."
+    },
+    "team": {
+      "tag": "The People Behind IkigaiE",
+      "headline": "Our Team",
+      "members": [
+        { "name": "Dr. Ananya Krishnan", "role": "Founder & Chief Mentor", "bio": "Psychologist and educator with 15+ years helping individuals unlock their potential." },
+        { "name": "Rohan Desai", "role": "Head of Programs", "bio": "Former corporate trainer who left the boardroom to build purpose-driven learning experiences." },
+        { "name": "Meera Joshi", "role": "Lead Career Counsellor", "bio": "Certified career coach specializing in career transitions and personal branding." },
+        { "name": "Siddharth Rao", "role": "Head of Technology", "bio": "Tech leader passionate about making quality education accessible through innovation." }
+      ]
+    }
+  },
+  "programs": {
+    "tag": "Transform Your Life",
+    "headline": "Our Programs",
+    "sub": "Transformative learning experiences designed for the real world — not the classroom.",
+    "learnMore": "Learn More →",
+    "flagship": {
+      "tag": "Flagship Programs",
+      "headline": "Signature Learning Experiences"
+    },
+    "courses": {
+      "tag": "Explore Our Courses",
+      "headline": "Explore Our Courses"
+    },
+    "notSure": {
+      "headline": "Not sure which program is right for you?",
+      "sub": "Take our 2-minute quiz to find your perfect program match.",
+      "cta": "Take the Quiz"
+    },
+    "categories": {
+      "software": "Software Development",
+      "technology": "Technology Courses",
+      "microsoft": "Microsoft Certifications",
+      "business": "Business & Management",
+      "language": "Language & Communication"
+    },
+    "flagship_items": {
+      "personality": { "title": "Personality Development", "desc": "Build unshakeable confidence, mastery-level communication, and emotional intelligence.", "weeks": "8 Weeks", "format": "From ₹6 / Session", "medium": "Online / Offline", "locations": "Mumbai, Pune" },
+      "speaking": { "title": "Public Speaking & Communication", "desc": "Master the art of commanding any room, from boardrooms to TEDx stages.", "weeks": "6 Weeks", "format": "From ₹8 / Session", "medium": "Online / Offline", "locations": "Workshops, Phase" },
+      "career": { "title": "Career Counselling", "desc": "Navigate your career path with clarity. Expert guidance on decisions that matter.", "weeks": "4 Sessions", "format": "1-on-1", "medium": "Online / Offline", "locations": "Bangalore, Pune, Online" },
+      "leadership": { "title": "Leadership & Team Building", "desc": "Develop the mindset of a leader and amplify your team's performance and culture.", "weeks": "6 Weeks", "format": "Group / Corporate", "medium": "Therapy, Team", "locations": "" },
+      "softSkills": { "title": "Soft Skills Training", "desc": "Master essential people skills: empathy, collaboration, problem-solving, and adaptability.", "weeks": "4 Weeks", "format": "Group", "medium": "Students, New Staff", "locations": "" },
+      "workshop": { "title": "Workshop Facilitation", "desc": "Custom-designed workshops for institutions and organisations of all sizes.", "weeks": "1-3 Days", "format": "Corporate / Institution", "medium": "Organisations, Schools", "locations": "" }
+    },
+    "software_items": {
+      "fullstack": { "title": "Full Stack Development", "desc": "Master modern web development with React, Node.js, and databases in this comprehensive full-stack program." },
+      "java": { "title": "Java Development", "desc": "Build robust enterprise applications with Java, Spring Boot, and microservices architecture." },
+      "blockchain": { "title": "Blockchain", "desc": "Understand the technology and build decentralized applications on Ethereum and Solana." }
+    },
+    "tech_items": {
+      "ai": { "title": "Artificial Intelligence", "desc": "Dive deep into AI fundamentals — machine learning, neural networks, NLP — and learn how to build them." },
+      "ml": { "title": "Machine Learning", "desc": "Master the algorithms that power modern AI and build predictive models with Python and scikit-learn." },
+      "python": { "title": "Python with AI", "desc": "Learn Python from scratch and apply it in AI projects using TensorFlow, pandas, and NumPy." },
+      "excel": { "title": "Advanced Excel", "desc": "Go beyond the basics — pivot tables, VLOOKUP, Power Query, Power BI, and automation with macros." },
+      "datascience": { "title": "Data Science", "desc": "Transform raw data into actionable insights using Python, R, SQL, and powerful visualization tools." },
+      "cyber": { "title": "Cyber Security", "desc": "Learn to protect systems and networks from threats with ethical hacking and security frameworks." },
+      "cloud": { "title": "Cloud Computing (AWS & Azure)", "desc": "Learn cloud architecture, deployment, and services on the world's two leading cloud platforms." }
+    },
+    "microsoft_items": {
+      "azure": { "title": "Microsoft Azure Fundamentals (AZ-900)", "desc": "Earn your first Microsoft certification and learn cloud fundamentals on the Azure platform." }
+    },
+    "business_items": {
+      "marketing": { "title": "Digital Marketing", "desc": "Master the complete digital marketing toolkit: SEO, SEM, social media, email marketing, and analytics." },
+      "analytics": { "title": "Data Analytics", "desc": "Turn raw data into business intelligence using Excel, SQL, Power BI, and Python." },
+      "leadership_mgmt": { "title": "Leadership & Management Programs", "desc": "Develop leadership skills for the modern workplace with coaching, frameworks, and real case studies." },
+      "sixsigma": { "title": "Six Sigma", "desc": "Learn the globally recognised process improvement methodology and earn your Green Belt certification." }
+    },
+    "language_items": {
+      "english": { "title": "Business English", "desc": "Communicate confidently in professional settings — emails, presentations, meetings, and negotiations." },
+      "softSkillsComm": { "title": "Soft Skills Training", "desc": "Build the interpersonal and professional competencies that accelerate career growth." },
+      "foreign": { "title": "Foreign Languages (Spanish, French, German)", "desc": "Open global doors by learning a new language with native-speaking instructors online." },
+      "ielts": { "title": "IELTS / TOEFL", "desc": "Score high on your English proficiency exam with targeted preparation, mock tests, and expert coaching." }
+    }
+  },
+  "philosophy": {
+    "tag": "Our Beliefs",
+    "headline": "The Philosophy Behind IkigaiE",
+    "sub": "We believe education should transform lives, not just transfer information.",
+    "pillars": {
+      "tag": "Our Pillars",
+      "headline": "What We Stand For",
+      "items": [
+        { "title": "Purpose Over Degree", "desc": "A degree opens a door. Purpose determines where you go once you're inside. We help you find what you're truly here to do." },
+        { "title": "Wisdom Over Information", "desc": "The internet has all the information. We curate and apply it — turning knowledge into wisdom through experience and reflection." },
+        { "title": "Community Over Competition", "desc": "India's most powerful resource is its people. We build communities of learners who lift each other up, not tear each other down." },
+        { "title": "Action Over Theory", "desc": "Every session has a takeaway you can apply immediately. We design for transformation, not just understanding." }
+      ]
+    },
+    "ikigai_deep": {
+      "tag": "The Japanese Concept",
+      "headline": "Why Ikigai?",
+      "p1": "The Japanese island of Okinawa has one of the highest concentrations of centenarians in the world. Researchers studying this phenomenon found a common thread: ikigai — a reason for being, a purpose that gets you out of bed each morning.",
+      "p2": "We adopted this concept because it addresses the root cause of unhappiness in careers and life: misalignment. When what you do doesn't connect with who you are, you feel empty. Ikigai fixes that.",
+      "p3": "Our framework is not just philosophy — it's a practical system. We use psychometric assessments, one-on-one coaching, group workshops, and skills training to help you find and live your ikigai."
+    },
+    "approach": {
+      "tag": "How We Teach",
+      "headline": "The IkigaiE Approach",
+      "items": [
+        { "step": "01", "title": "Discover", "desc": "Self-assessment, reflection exercises, and psychometric tools to map your strengths, values, and passions." },
+        { "step": "02", "title": "Design", "desc": "Work with mentors to design a personalised learning path aligned with your ikigai." },
+        { "step": "03", "title": "Develop", "desc": "Gain the skills, knowledge, and mindset shifts needed to bring your purpose to life." },
+        { "step": "04", "title": "Deploy", "desc": "Apply your ikigai in the real world — career, business, relationships, and community." }
+      ]
+    }
+  },
+  "updates": {
+    "tag": "Stay Informed",
+    "headline": "Latest Updates",
+    "sub": "News, insights, and stories from the IkigaiE community.",
+    "readMore": "Read More →",
+    "categories": {
+      "all": "All",
+      "news": "News",
+      "insights": "Insights",
+      "stories": "Stories",
+      "events": "Events"
+    },
+    "posts": [
+      { "category": "news", "date": "May 20, 2026", "title": "IkigaiE Launches New Blockchain Course in Partnership with Web3 Foundation", "excerpt": "Our newest technical course goes live this June, with limited early-bird seats available for enrolled students." },
+      { "category": "insights", "date": "May 15, 2026", "title": "Why Most Career Advice is Completely Wrong (And What to Do Instead)", "excerpt": "The conventional wisdom around career planning is outdated. Here's the framework we use with 500+ students." },
+      { "category": "stories", "date": "May 10, 2026", "title": "From Call Centre to Product Manager: Rahul's IkigaiE Story", "excerpt": "Rahul came to us confused and burned out. 8 months later, he landed his dream role at a leading startup." },
+      { "category": "events", "date": "May 5, 2026", "title": "IkigaiE Annual Summit 2026 — Register Now", "excerpt": "Join 300+ alumni, mentors, and industry leaders for a full day of talks, workshops, and connection." },
+      { "category": "insights", "date": "April 28, 2026", "title": "The 4 Signs You've Found Your Ikigai (And 3 Signs You Haven't)", "excerpt": "Understanding ikigai isn't just philosophical — there are real, tangible signs you can look for in your daily life." },
+      { "category": "news", "date": "April 20, 2026", "title": "IkigaiE Receives Recognition from National Skill Development Corporation", "excerpt": "We're proud to be recognised as a leading private skill development institution by the NSDC." }
+    ]
+  },
+  "contact": {
+    "tag": "Reach Out",
+    "headline": "Let's Start a Conversation",
+    "sub": "Have a question? Want to enroll? Or just curious about ikigai? We'd love to hear from you.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll get back to you within 24 hours.",
+      "subjects": ["General Inquiry", "Program Enrollment", "Corporate Training", "Career Counselling", "Technical Support", "Partnership"]
+    },
+    "info": {
+      "email": "hello@ikigaie.com",
+      "phone": "+91 98765 43210",
+      "address": "WeWork, Bandra Kurla Complex, Mumbai, Maharashtra 400051",
+      "hours": "Mon–Sat: 9:00 AM – 7:00 PM IST"
+    },
+    "social": "Follow Our Journey"
+  },
+  "footer": {
+    "tagline": "Find your reason for being.",
+    "quickLinks": "Quick Links",
+    "programs": "Programs",
+    "connect": "Connect",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© 2026 IkigaiE. All rights reserved."
+  }
+}
