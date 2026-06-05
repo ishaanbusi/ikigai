@@ -651,7 +651,7 @@ export default function ContactPage() {
                         textShadow: "0 1px 4px rgba(0,0,0,0.8)",
                       }}
                     >
-                      BKC, Mumbai
+                      Workshops across India
                     </p>
                   </div>
                 </div>
