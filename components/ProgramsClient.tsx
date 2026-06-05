@@ -59,7 +59,7 @@ export default function ProgramsClient({ locale }: { locale: string }) {
   return (
     <div style={{ paddingTop: 72 }}>
 
-      {/* ── HERO ── */}
+      {/* ── PAGE HERO ── */}
       <section style={{ position: 'relative', minHeight: '60vh', display: 'flex', alignItems: 'center', overflow: 'hidden' }}>
         <Image src={IMAGES.heroStudents} alt="Programs" fill style={{ objectFit: 'cover', objectPosition: 'center 40%' }} priority />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(8,15,9,0.97) 0%, rgba(8,15,9,0.85) 55%, rgba(8,15,9,0.5) 100%)' }} />
@@ -76,36 +76,42 @@ export default function ProgramsClient({ locale }: { locale: string }) {
         </div>
       </section>
 
-      {/* ── FLAGSHIP ── */}
+
+      {/* ── FLAGSHIP PROGRAMS ── */}
       <section className="section">
         <div className="container">
           <div style={{ marginBottom: 'clamp(2.5rem,5vw,4rem)' }}>
             <div className="eyebrow">{t('flagship.tag')}</div>
             <h2 className="display-md">{t('flagship.headline')}</h2>
           </div>
+
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(min(100%,360px),1fr))', gap: '1.25rem' }}>
             {flagshipItems.map(({ key, color, glyph, img }) => {
               const item = t.raw(`flagship_items.${key}`) as any;
+              const slug = key; // key matches slug exactly
               return (
                 <div key={key} className="prog-card" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-                  {/* Image header */}
-                  <div style={{ position: 'relative', height: 200, overflow: 'hidden', flexShrink: 0 }}>
-                    <Image src={img} alt={item.title} fill style={{ objectFit: 'cover' }} />
-                    <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(to bottom, rgba(8,15,9,0.05) 0%, rgba(8,15,9,0.75) 100%)` }} />
-                    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: `linear-gradient(90deg,${color},transparent)` }} />
-                    {/* Glyph badge */}
-                    <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: 42, height: 42, borderRadius: 10, background: `${color}28`, backdropFilter: 'blur(8px)', border: `1px solid ${color}45`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.1rem', color }}>
-                      {glyph}
+                  {/* Clickable image header */}
+                  <Link href={`/${locale}/programs/${slug}`} style={{ textDecoration: 'none', display: 'block' }}>
+                    <div style={{ position: 'relative', height: 200, overflow: 'hidden', flexShrink: 0, cursor: 'pointer' }}>
+                      <Image src={img} alt={item.title} fill style={{ objectFit: 'cover', transition: 'transform 0.4s ease' }}
+                        onMouseEnter={e => (e.currentTarget as HTMLImageElement).style.transform = 'scale(1.04)'}
+                        onMouseLeave={e => (e.currentTarget as HTMLImageElement).style.transform = 'scale(1)'} />
+                      <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(to bottom, rgba(8,15,9,0.05) 0%, rgba(8,15,9,0.75) 100%)` }} />
+                      <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: `linear-gradient(90deg,${color},transparent)` }} />
+                      <div style={{ position: 'absolute', top: '1rem', left: '1rem', width: 42, height: 42, borderRadius: 10, background: `${color}28`, backdropFilter: 'blur(8px)', border: `1px solid ${color}45`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.1rem', color }}>
+                        {glyph}
+                      </div>
+                      <div style={{ position: 'absolute', bottom: '1rem', left: '1.25rem', right: '1.25rem' }}>
+                        <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: '1.25rem', color: '#fff', lineHeight: 1.2 }}>{item.title}</h3>
+                      </div>
                     </div>
-                    {/* Title on image bottom */}
-                    <div style={{ position: 'absolute', bottom: '1rem', left: '1.25rem', right: '1.25rem' }}>
-                      <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: '1.25rem', color: '#fff', lineHeight: 1.2 }}>{item.title}</h3>
-                    </div>
-                  </div>
+                  </Link>
 
                   {/* Body */}
                   <div style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
                     <p className="body-sm" style={{ lineHeight: 1.7, flex: 1, marginBottom: '1.5rem' }}>{item.desc}</p>
+
                     {/* Meta tags */}
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', marginBottom: '1.5rem' }}>
                       {[
@@ -119,9 +125,13 @@ export default function ProgramsClient({ locale }: { locale: string }) {
                         </span>
                       ))}
                     </div>
+
+                    {/* Actions */}
                     <div style={{ paddingTop: '1.25rem', borderTop: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                      <Link href={`/${locale}/contact`} style={{ fontFamily: 'var(--font-body)', fontSize: '0.82rem', color, fontWeight: 600, textDecoration: 'none' }}>
-                        {t('learnMore')}
+                      <Link
+                        href={`/${locale}/programs/${slug}`}
+                        style={{ fontFamily: 'var(--font-body)', fontSize: '0.82rem', color, fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 5 }}>
+                        Learn More <ArrowUpRight size={14} />
                       </Link>
                       <Link href={`/${locale}/contact`} className="btn btn-primary btn-sm">Enroll</Link>
                     </div>
@@ -135,7 +145,7 @@ export default function ProgramsClient({ locale }: { locale: string }) {
 
       <div className="rule-gradient" />
 
-      {/* ── TECH COURSES — with category banners ── */}
+      {/* ── TECH & COURSE CATEGORIES ── */}
       <section className="section" style={{ background: 'var(--bg-1)' }}>
         <div className="container">
           <div style={{ marginBottom: 'clamp(2.5rem,5vw,4rem)' }}>
@@ -149,7 +159,7 @@ export default function ProgramsClient({ locale }: { locale: string }) {
                 {/* Category banner with image */}
                 <div style={{ position: 'relative', height: 120, borderRadius: 16, overflow: 'hidden', marginBottom: '1.5rem' }}>
                   <Image src={img} alt={label} fill style={{ objectFit: 'cover' }} />
-                  <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(90deg, rgba(8,15,9,0.92) 0%, rgba(8,15,9,0.6) 60%, rgba(8,15,9,0.3) 100%)` }} />
+                  <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(90deg, rgba(8,15,9,0.93) 0%, rgba(8,15,9,0.6) 60%, rgba(8,15,9,0.3) 100%)` }} />
                   <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', paddingLeft: '2rem', gap: 14 }}>
                     <div style={{ width: 40, height: 40, borderRadius: 10, background: `${color}25`, backdropFilter: 'blur(8px)', border: `1px solid ${color}45`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.2rem', flexShrink: 0 }}>
                       {icon}
@@ -169,8 +179,11 @@ export default function ProgramsClient({ locale }: { locale: string }) {
                           <h4 style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: '1.05rem', color: 'var(--cream)', lineHeight: 1.25 }}>{item.title}</h4>
                         </div>
                         <p className="body-sm" style={{ lineHeight: 1.65, flex: 1 }}>{item.desc}</p>
-                        <Link href={`/${locale}/contact`} style={{ fontFamily: 'var(--font-body)', fontSize: '0.78rem', color, fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 4 }}>
-                          {t('learnMore')}
+                        {/* Learn More links to individual page */}
+                        <Link
+                          href={`/${locale}/programs/${key}`}
+                          style={{ fontFamily: 'var(--font-body)', fontSize: '0.78rem', color, fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 5, marginTop: '0.25rem' }}>
+                          Learn More <ArrowUpRight size={12} />
                         </Link>
                       </div>
                     );
@@ -181,6 +194,7 @@ export default function ProgramsClient({ locale }: { locale: string }) {
           </div>
         </div>
       </section>
+
 
       {/* ── BOTTOM CTA ── */}
       <section style={{ position: 'relative', padding: 'clamp(4rem,8vw,6rem) 0', overflow: 'hidden' }}>

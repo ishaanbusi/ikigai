@@ -200,7 +200,7 @@ export default function HomeClient({ locale }: { locale: string }) {
                   <p className="body-sm" style={{ lineHeight: 1.65, marginBottom: '1.25rem' }}>
                     {prog(`items.${key}.desc` as any)}
                   </p>
-                  <Link href={`/${locale}/programs`} style={{ fontFamily: 'var(--font-body)', fontSize: '0.8rem', color, fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 5 }}>
+                  <Link href={`/${locale}/programs/${key}`} style={{ fontFamily: 'var(--font-body)', fontSize: '0.8rem', color, fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 5 }}>
                     Explore <ArrowRight size={13} />
                   </Link>
                 </div>
